@@ -37,4 +37,16 @@ public class OrderQueue {
          orderQueue.add(order);
         order.setTimeReceived(new Date());
     }
+    public void Next(Order order) throws Exception {
+       
+        return null;
+    }
+    public void Process(Order order) throws Exception {
+       
+        return null;
+    }
+    public void Fulfill(Order order) throws Exception {
+       
+        return null;
+    }
 }

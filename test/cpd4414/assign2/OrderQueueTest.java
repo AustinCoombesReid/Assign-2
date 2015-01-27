@@ -90,4 +90,19 @@ public class OrderQueueTest {
        }
          assertTrue(catchit);
     }
+    @Test
+    public void testReceiveNextOrder() {
+    }
+    @Test
+    public void testNoReceivedtOrderReturnNull() {
+    }
+    @Test
+    public void testProcessPurchasesWithTimeRecivedAndItemsInStock() {
+    }
+    @Test
+    public void testProcessPurchasesWithoutTimeRecivedThrowException() {
+    }
+    @Test
+    public void testFulfillProcessedOrders() {
+    }
 }
