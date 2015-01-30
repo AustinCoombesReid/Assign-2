@@ -105,4 +105,57 @@ public class OrderQueueTest {
     @Test
     public void testFulfillProcessedOrders() {
     }
+
+    /**
+     * Test of add method, of class OrderQueue.
+     */
+    @Test
+    public void testAdd() throws Exception {
+        System.out.println("add");
+        Order order = null;
+        OrderQueue instance = new OrderQueue();
+        instance.add(order);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of Next method, of class OrderQueue.
+     */
+    @Test
+    public void testNext() throws Exception {
+        System.out.println("Next");
+        OrderQueue instance = new OrderQueue();
+        Order expResult = null;
+        Order result = instance.Next();
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of Process method, of class OrderQueue.
+     */
+    @Test
+    public void testProcess() throws Exception {
+        System.out.println("Process");
+        Order order = null;
+        OrderQueue instance = new OrderQueue();
+        instance.Process(order);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of Fulfill method, of class OrderQueue.
+     */
+    @Test
+    public void testFulfill() throws Exception {
+        System.out.println("Fulfill");
+        Order order = null;
+        OrderQueue instance = new OrderQueue();
+        instance.Fulfill(order);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
 }

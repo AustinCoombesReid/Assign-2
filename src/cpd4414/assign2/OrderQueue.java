@@ -19,7 +19,7 @@ package cpd4414.assign2;
 import java.util.ArrayDeque;
 import java.util.Date;
 import java.util.Queue;
-
+import java.util.Deque;
 /**
  *
  * @author Len Payne <len.payne@lambtoncollege.ca>
@@ -37,16 +37,28 @@ public class OrderQueue {
          orderQueue.add(order);
         order.setTimeReceived(new Date());
     }
-    public void Next(Order order) throws Exception {
+
+    /**
+     *
+     * @return
+     * @throws Exception
+     */
+    public Order Next() throws Exception {
+      
+        if (orderQueue.isEmpty()) {
+            return null;
+        } 
+        Order retcal = orderQueue.element();
+       return retcal;
        
-        return null;
+      
     }
     public void Process(Order order) throws Exception {
        
-        return null;
+      
     }
     public void Fulfill(Order order) throws Exception {
        
-        return null;
+    
     }
 }
